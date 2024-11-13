@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuesioner Pola Tidur dan Prestasi Belajar</title>
+</head>
+<body>
+    <h1>Kuesioner Pola Tidur dan Prestasi Belajar</h1>
+    <form action="submit.php" method="POST">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="kelas">Kelas:</label><br>
+        <input type="text" id="kelas" name="kelas" required><br><br>
+
+        <label>Menurutmu, apakah pola tidurmu baik?</label><br>
+        <input type="radio" id="sangat_baik" name="pola_tidur" value="Sangat baik" required>
+        <label for="sangat_baik">Sangat baik</label><br>
+        <input type="radio" id="baik" name="pola_tidur" value="Baik">
+        <label for="baik">Baik</label><br>
+        <input type="radio" id="kurang_baik" name="pola_tidur" value="Kurang baik">
+        <label for="kurang_baik">Kurang baik</label><br>
+        <input type="radio" id="tidak_baik" name="pola_tidur" value="Tidak baik">
+        <label for="tidak_baik">Tidak baik</label><br><br>
+
+        <label>Menurutmu, apakah prestasi belajarmu baik?</label><br>
+        <input type="radio" id="sangat_baik" name="prestasi_belajar" value="Sangat baik" required>
+        <label for="sangat_baik">Sangat baik</label><br>
+        <input type="radio" id="baik" name="prestasi_belajar" value="Baik">
+        <label for="baik">Baik</label><br>
+        <input type="radio" id="kurang_baik" name="prestasi_belajar" value="Kurang baik">
+        <label for="kurang_baik">Kurang baik</label><br>
+        <input type="radio" id="tidak_baik" name="prestasi_belajar" value="Tidak baik">
+        <label for="tidak_baik">Tidak baik</label><br><br>
+
+        <label>Apakah selama di sekolah sering merasa mengantuk dan tidak fokus?</label><br>
+        <input type="radio" id="iya" name="sering_mengantuk" value="Iya" required>
+        <label for="iya">Iya</label><br>
+        <input type="radio" id="tidak" name="sering_mengantuk" value="Tidak">
+        <label for="tidak">Tidak</label><br><br>
+
+        <label>Rentang Ranking/Peringkat akademik kalian di sekolah?</label><br>
+        <input type="radio" id="1-10" name="rentang_ranking" value="1-10" required>
+        <label for="1-10">1-10</label><br>
+        <input type="radio" id="11-20" name="rentang_ranking" value="11-20">
+        <label for="11-20">11-20</label><br>
+        <input type="radio" id="21-30" name="rentang_ranking" value="21-30">
+        <label for="21-30">21-30</label><br>
+        <input type="radio" id="lebih_30" name="rentang_ranking" value=">30">
+        <label for="lebih_30">&gt;30</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
